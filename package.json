@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "test": "vue-cli-service test",
     "lint": "vue-cli-service lint"
@@ -23,7 +23,18 @@
     "chai": "^4.1.2",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
-    "vue-template-compiler": "^2.5.13"
+    "vue-template-compiler": "^2.5.13",
+    "dateformat": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-copy": "0.0.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sftp": "^0.1.5",
+    "gulp-ssh": "^0.7.0",
+    "gulp-zip": "^4.0.0",
+    "minimist": "^1.2.0",
+    "postcss-pxtorem": "^4.0.1",
+    "run-sequence": "^1.1.5"
   },
   "browserslist": [
     "> 1%",
